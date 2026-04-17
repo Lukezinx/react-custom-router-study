@@ -6,7 +6,8 @@ function Sidebar() {
         {label: 'DropDown', path: '/'},
         {label: 'Accordion', path: '/accordion'},
         {label: 'Buttons', path: '/buttons'},
-        {label: 'Modal', path: '/modal'}
+        {label: 'Modal', path: '/modal'},
+        {label: 'Table', path: '/table'}
     ]
 
     const rederedLinks = links.map((link) => {
